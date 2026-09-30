@@ -16,8 +16,7 @@ let rec sumUp (t : rose) : int =
 (*
 sum_up_helper : rose list -> int
 REQUIRES: true
-ENSURES: sum_up_helper children -*-> n where n is the total of all numbers held in
-         every rose tree in children
+ENSURES: sum_up_helper children -*-> n where n is the total of all numbers held in every rose tree in children
 *)
 and sum_up_helper (children : rose list) : int =
   match children with
